@@ -11,15 +11,15 @@ import Pnf from './component/Pnf';
 function App() {
   return (
    <BrowserRouter>
-   <h1>Music Player</h1>
+   {/* <h1>Music Player</h1> */}
      <Menu/>
-     {/* <ToastContainer autoClose={5000} position={"top-right"}/>
+     <ToastContainer autoClose={5000} position={"top-right"}/>
      <Routes>
       <Route path={'/'} element={ <Home/> } />
       <Route path={'/home'} element={ <Home/> } />
       <Route path={"track/:id"} element={<Track/>}/>
       <Route path={"/*"} element={<Pnf/>}/>
-     </Routes> */}
+     </Routes>
 
    </BrowserRouter>
 
